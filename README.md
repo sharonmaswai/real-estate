@@ -5,8 +5,8 @@ This application helps house hunters verify whether their real estate agent is g
 ## Description
 Agent x is a website that helps house hunters verify whether their real estate agents are genuine or not. This website lists the names of registered agents with their respective agencies together with their contact details, so when a house hunter searches to verify an agent and their contact details, they can see if the agent is registered and if, their contact details are correct.
 ## Setup/Installation Requirements
-* Have a working web browser preferably chrome.
-* Make sure to have a to have a github account.
+You would need the following to access the website:Smart phone/PC/laptop/Desktop/Tablet or any PDA, Internet connectivity (either wireless or ethernet), and a web browser(Chrome is most recommendable).You can then access the poject through 
+
 ## Known Bugs
 No bugs should be present once carefully installed.
 ## Technologies Used
