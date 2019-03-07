@@ -5,35 +5,76 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-   <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
-    <title>search-page</title>
 
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="js/scripts.js"></script>
+
+    <title>Registration Form</title>
   </head>
   <body>
-    <div class="container">
-      <h2 for="agency" id="agency">REAL ESTATE AGENCY</h2>
+    <div class="cointainer">
+      <h3>Register Form</h3>
+        <h2>Add  an agent</h3>
+          <form id ="new agent" >
 
-      <p>Stone Realtors</p>
-        <ol>
-          <li>Harvey G</li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+        <p>Fill in the form below</p>
 
-      <p>Boove Real Estate Agency</p>
-      <p>Morty Properties</p>
-      <p>Gaston Homes</p>
-      <p>Garfield Realtors</p>
-      <p>Cheston Agency</p>
-      <p>Sisibo properties</p>
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
 
 
+
+        <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
+        <div class="col-sm-10">
+          <input type="Address" class="form-control" id="inputAddress" placeholder="Address">
+        </div>
+
+        <h2>Agent details</h2>
+
+        <label for="inputAgentName" class="col-sm-2 col-form-label">AgentName</label>
+        <div class="col-sm-10">
+          <input type="AgentName" class="form-control" id="inputAgentName" placeholder="AgentName">
+        </div>
+
+      <label for="inputPhone number" class="col-sm-2 col-form-label">Phone number</label>
+      <div class="col-sm-10">
+        <input type="Phone number" class="form-control" id="inputPhone number" placeholder="Phone number">
+      </div>
+
+
+      <label for="inputLicense" class="col-sm-2 col-form-label">License</label>
+      <div class="col-sm-10">
+        <input type="License" class="form-control" id="inputLicense" placeholder="License">
+      </div>
+      </div>
     </div>
 
+      <div class="register">
+        <div class="register">
+          <button type="submit" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+    </div>
+    
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
-
-  </body>
-</html>
+        </form>
+        <div class="form-group row">
+          <div class="col-md-6">
+            <div id="show Agent">
+              <p>AgentName: <span class="AgentName"></span></p>
+              <p>Phonenumber: <span class="Phonenumber"></span></p>
+              <p>License: <span class="License"></span></p>
+            </div>
+    </div>
+      </body>
+    </html>
