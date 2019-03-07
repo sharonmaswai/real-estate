@@ -21,3 +21,18 @@ function search() {
 
 
 }
+$(document).ready(function(){
+  $("#x").click(function(){
+    $("#home").toggle(1000)
+    $("#landing").toggle(1000)
+  })
+
+  $("#agencies").click(function(){
+    $("#agencyname").slideToggle("slow")
+
+  })
+  $("#agentsearch").click(function(){
+    $(".search").show()
+  })
+
+})

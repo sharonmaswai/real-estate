@@ -513,3 +513,110 @@ textarea.input100 {
 .lnr lnr-map-marker{
   color: pink;
 }
+body{
+  background-image: url('https://wallpapercave.com/wp/o7DQKDh.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+#nav{
+background-color:black;
+opacity: 0.8;
+}
+nav{
+  max-width:900px;
+  margin:10 auto;
+  padding:10px 0;
+  margin left:0%;
+}
+nav>ul{
+  Text-align:left;
+}
+nav>ul>li{
+  display:inline-block;
+}
+nav>ul>li>a{
+  padding:15px;
+  margin-left:58.8px;
+  text-transform:none;
+  text-decoration:none;
+  display:block;
+  color:white;
+}
+nav>ul>li>a:hover{
+  box-shadow: 0px 0px 0px black;
+  background: white;
+  color:black;
+}
+#home{
+  display: none;
+}
+#float{
+  margin-left:33%;
+  font-size:35px;
+  color:white;
+  font-family:Great Vibes;
+}
+button{
+  font-family: Cinzel;
+}
+button:hover{
+box-shadow: 0px 0px 10px black;
+}
+h1{
+  color:white;
+  font-family: Cinzel;
+  font-size:500%;
+  margin-left:40%;
+}
+#x{
+  font-size: 1000%;
+  font-family: Cinzel;
+  color:red;
+  margin-left: 45%;
+}
+#x:hover{
+  color:red;
+  text-shadow: 0px 0px 100px red;
+  cursor:pointer;
+}
+#landing{
+  background-color: black;
+  opacity: 0.8;
+  margin-top:8%;
+}
+#image{
+  padding-top:3%;
+}
+#specifications{
+  opacity: 0.8;
+  margin-left:20%;
+  color:black;
+  float:right;
+  margin-left: 33%;
+}
+#ul{
+  font-size: 100%;
+  margin-top: 20%;
+  margin-left:20%;
+}
+#specify{
+  font-size: 150%;
+}
+#h3{
+  font-size:450;
+  color:white;
+}
+.row {
+  display: none;
+}
+.agencyname {
+  display: none;
+}
+#agencies {
+cursor: pointer;
+
+}
+
+#agencies:hover {
+text-decoration: underline;
+}
