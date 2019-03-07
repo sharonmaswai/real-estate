@@ -1,14 +1,17 @@
 function search() {
-  var name=document.getElementById('id').value;
-  var licenseNumber= document. getElementById('id').value;
+  var name=document.getElementById('input').value;
 
-  var stoneNames=["Gerald-Fero","Steve-Kari","Mandi-Sato"]
-  for(var index=0; index < stoneNames.length; index+= 1) {
-    if(name===stoneNumbers[index])
-    {
-      Document.getElementById("").innerHTML="An agent of Stone Properties."
-    } esle {
-      Document.getElementById('id').innerHTML="Not an Agent of Stone Properties."
+
+  var agentNames=["Gerald-Fero","Bona-Oma","Sivo-Kato","Gaga-Javo","Aggy-Tana","Eric-Doro","Angie Komi","Merah-Jana","Tommy-Vero","Veida-Obi","Steve-Kari","Mandi-Sato","Mimo-Sive","Naomi-Cotte","Ton-Wawi"]
+
+  for(var index=0; index < agentNames.length; index+= 1) {
+    if(name===agentNames[index])
+    {if (name===agentNames) {
+      document.getElementById('output').innerHTML="A certified listed agent.";
+    }
+
+    } else  {
+      document.getElementById('output').innerHTML="Not a certified listed agent.";
 
     }
   }
