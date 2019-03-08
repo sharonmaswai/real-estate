@@ -606,17 +606,19 @@ h1{
   font-size:450;
   color:white;
 }
-.row {
-  display: none;
+.form-register-button {
+  background-color: #0066A2;
+  color;white;
+  border-style; outset;
+  border-color: #0866A2;
+  height: 50px;
+  width:100px;
+  font:bold 15px arial,sans-serif;
+  text-shadow:none
 }
-.agencyname {
-  display: none;
-}
-#agencies {
-cursor: pointer;
-
-}
-
-#agencies:hover {
-text-decoration: underline;
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
