@@ -27,12 +27,19 @@ $(document).ready(function(){
     $("#landing").toggle(1000)
   })
 
-  $("#agencies").click(function(){
-    $("#agencyname").slideToggle("slow")
+  $("a#contacts").click(function(){
+    $("#three").toggle("1000")
 
   })
-  $("#agentsearch").click(function(){
-    $(".search").show()
+  $("a#register").click(function(){
+    $("#four").toggle("1000")
+      $("#three").toggle("1000")
   })
+  $("a#search").click(function(){
+    $("#two").toggle("1000")
+    $("#four").toggle("1000")
+      $("#three").toggle("1000")
+  })
+
 
 })
