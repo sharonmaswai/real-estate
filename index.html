@@ -6,6 +6,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -14,57 +17,60 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <script src="js/scripts.js"></script>
 
     <title>Registration Form</title>
   </head>
   <body>
     <div class="cointainer">
+      <div class="form-horizontal">
       <h3>Register Form</h3>
-        <h2>Add  an agent</h3>
-          <form id ="new agent" >
 
+  <form id ="new agent" >
         <p>Fill in the form below</p>
-
-      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
+        <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-6">
         <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-      </div>
+        </div>
+        </div>
 
-
-
+       <div class="form-group">
         <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
-        <div class="col-sm-10">
+        <div class="col-sm-6">
           <input type="Address" class="form-control" id="inputAddress" placeholder="Address">
         </div>
-
-        <h2>Agent details</h2>
-
+      </div>
+      <div class="form-group">
         <label for="inputAgentName" class="col-sm-2 col-form-label">AgentName</label>
-        <div class="col-sm-10">
+        <div class="col-sm-6">
           <input type="AgentName" class="form-control" id="inputAgentName" placeholder="AgentName">
         </div>
-
-      <label for="inputPhone number" class="col-sm-2 col-form-label">Phone number</label>
-      <div class="col-sm-10">
-        <input type="Phone number" class="form-control" id="inputPhone number" placeholder="Phone number">
       </div>
 
+      <div class="form-group">
+      <label for="inputPhone number" class="col-sm-2 col-form-label">Phone number</label>
+      <div class="col-sm-6">
+        <input type="Phone number" class="form-control" id="inputPhone number" placeholder="Phone number">
+      </div>
+    </div>
 
+      <div class="form-group">
       <label for="inputLicense" class="col-sm-2 col-form-label">License</label>
-      <div class="col-sm-10">
+      <div class="col-sm-6">
         <input type="License" class="form-control" id="inputLicense" placeholder="License">
       </div>
       </div>
     </div>
-
-      <div class="register">
+    </div>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-6">
         <div class="register">
           <button type="submit" class="btn btn-primary">Register</button>
+        </div>
       </div>
     </div>
-    </div>
-    
+
     <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
         </form>
