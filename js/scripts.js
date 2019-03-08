@@ -7,7 +7,7 @@ function validateForm() {
 //business logic
 function agent (AgentName, phonenumber, license_){
   this.AgentName = AgentName;
-  this.Phonenumber = Phonen;
+  this.Phonenumber = Phonenumber;
   this.License = License;
 }
 //user interface logic
