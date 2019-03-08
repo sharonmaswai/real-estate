@@ -11,7 +11,7 @@ function agent (AgentName, phonenumber, license_){
   this.License = License;
 }
 //user interface logic
-$(document).rea(function)(){
+$(document).ready(function)(){
   $(form#new-Agent).submit(function(event){
     event.preventDefault();
     var inputtedAgentName = $("input#new-Agent").val();
