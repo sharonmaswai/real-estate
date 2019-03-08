@@ -1,4 +1,4 @@
-ody{
+body{
   background-image: url('https://wallpapercave.com/wp/o7DQKDh.jpg');
   background-size: cover;
   background-repeat:no-repeat;
@@ -615,35 +615,7 @@ body{
   background-size: cover;
   background-repeat:no-repeat;
 }
-#nav{
-background-color:black;
-opacity: 0.8;
-}
-nav{
-  max-width:900px;
-  margin:10 auto;
-  padding:10px 0;
-  margin left:0%;
-}
-nav>ul{
-  Text-align:left;
-}
-nav>ul>li{
-  display:inline-block;
-}
-nav>ul>li>a{
-  padding:15px;
-  margin-left:58.8px;
-  text-transform:none;
-  text-decoration:none;
-  display:block;
-  color:white;
-}
-nav>ul>li>a:hover{
-  box-shadow: 0px 0px 0px black;
-  background: white;
-  color:black;
-}
+
 #home{
   display: none;
 }
@@ -725,12 +697,15 @@ input[type=text] {
 #four{
   display:none;
   background-color:white;
-  width:150%;
+  width:97.5%;
+  margin-left:1%;
+  text-align:center;
+  color:black;
 
 
 }
 #two{
   display: none;
   background-color: white;
-  width:150%
+  width:100%
 }
