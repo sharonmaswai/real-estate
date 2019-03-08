@@ -33,12 +33,12 @@ $(document).ready(function(){
   })
   $("a#register").click(function(){
     $("#four").toggle("1000")
-      $("#three").toggle("1000")
+
   })
   $("a#search").click(function(){
     $("#two").toggle("1000")
-    $("#four").toggle("1000")
-      $("#three").toggle("1000")
+
+
   })
 
 

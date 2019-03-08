@@ -6,7 +6,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
    <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi|Cinzel|Great+Vibes" rel="stylesheet">
     <title>search-page</title>
 
   </head>
@@ -25,7 +25,8 @@
      <nav>
       <ul>
        <img src="https://tbncdn.freelogodesign.org/4f46cc08-c1c6-4079-9cde-1d00223724de.png?1551948545846" height=100 width=100>
-       <li> <a id="home">HOME</a> </li>
+
+        <li> <a id="home" >HOME</a> </li>
        <li> <a id="about" >ABOUT</a> </li>
        <li> <a id="contacts">CONTACTS</a> </li>
        <li> <a id="register">REGISTER</a> </li>
@@ -33,6 +34,7 @@
       </ul>
      </nav>
     </div>
+
 <div id="three">
     <div class="container-contact100" >
 		<div class="wrap-contact100">
@@ -112,7 +114,20 @@
 	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/cb7744ae/cloudflare-static/rocket-loader.min.js" data-cf-settings="2f8a050c8b39da595c7d864e-|49" defer=""></script>
 </div>
 </div>
+
+
+
     <div id="two" class="container">
+      <div class="agents">
+        <span id="agentsearch">AGENT SEARCH <input type="text" class="search" placeholder="Enter name of agent" value="" id="input"> </span>
+        <button type="button" class="search" onclick="search()">Search</button>
+        <h3 id="output">
+
+        </h3>
+
+<br><br>
+      </div>
+
       <span id="agencies"><strong>REAL ESTATE AGENCIES</strong></span>
       <div class="realtors">
 
@@ -255,6 +270,7 @@
 
 
         </div>
+
         <div class="emoticon">
           <p class="agencyname"><strong>Emoticon Realtors</strong> </p>
           <div class="row" id="emoticon">
@@ -460,25 +476,6 @@
 
         </div>
       </div>
-
-      <div class="agents">
-        <span id="agentsearch">AGENT SEARCH <input type="text" class="search" placeholder="Enter name of agent" value="" id="input"> </span>
-        <button type="button" class="search" onclick="search()">Search</button>
-        <h3 id="output">
-
-        </h3>
-
-
-
-      </div>
-
-
-
-
-
-
-
-
 
 
     </div>
